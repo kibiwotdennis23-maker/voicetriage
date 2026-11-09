@@ -1,0 +1,62 @@
+{
+  "name": "Kiswahili",
+  "order": 2,
+  "reviewed": false,
+  "prompts": {
+    "menu": "Kwa Kiswahili, bonyeza",
+    "digit_1": "moja",
+    "digit_2": "mbili",
+    "digit_3": "tatu",
+    "digit_4": "nne",
+    "digit_5": "tano",
+    "digit_6": "sita",
+    "digit_7": "saba",
+    "digit_8": "nane",
+    "digit_9": "tisa",
+    "consent": "Karibu kwenye huduma ya ushauri wa afya ya VoiceTriage. Huduma hii inatoa mwongozo, si utambuzi wa ugonjwa. Ukitaka kituo cha afya kijulishwe kwamba unakuja, na kione majibu yako na nambari yako ya simu, bonyeza moja. Ukitaka kuendelea bila kushiriki taarifa zako, bonyeza mbili.",
+    "invalid": "Samahani, sikuelewa. Tafadhali jaribu tena.",
+    "yes_no_hint": "Bonyeza moja kwa ndiyo. Bonyeza mbili kwa hapana.",
+    "region_menu": "Uko kaunti gani? Bonyeza nambari iliyo baada ya jina la kaunti yako.",
+    "facility_intro": "Kituo cha afya kilicho karibu nawe ni",
+    "alert_sent": "Kituo kimejulishwa kwamba unakuja.",
+    "no_alert": "Kituo hakijajulishwa. Tafadhali nenda kituoni.",
+    "goodbye": "Asante kwa kupiga simu. Kwaheri.",
+    "disclaimer": "Kumbuka, huduma hii inatoa mwongozo tu. Ukiwa na wasiwasi, nenda kituo cha afya.",
+
+    "region_uasin_gishu": "Kwa Uasin Gishu, bonyeza",
+    "region_nandi": "Kwa Nandi, bonyeza",
+    "region_elgeyo_marakwet": "Kwa Elgeyo Marakwet, bonyeza",
+
+    "who": "Ni nani mgonjwa? Bonyeza moja kwa mtoto chini ya miaka mitano. Bonyeza mbili kwa mama mjamzito. Bonyeza tatu kwa mtu mwingine yeyote.",
+
+    "c_drink": "Je, mtoto hawezi kunywa wala kunyonya, au anatapika kila kitu?",
+    "c_fits": "Je, mtoto amepata degedege, au amelala sana, amelegea, au ni vigumu kumwamsha?",
+    "c_breath": "Je, mtoto anapumua haraka au kwa shida, au kifua kinavutika ndani?",
+    "c_young": "Je, mtoto ana umri chini ya miezi miwili?",
+    "c_diarrhoea": "Je, mtoto ana damu kwenye choo, au dalili za kukosa maji mwilini, kama macho kudidimia?",
+    "c_fever": "Je, mtoto amekuwa na homa kwa zaidi ya siku mbili?",
+    "c_worse": "Je, ugonjwa unazidi kuwa mbaya, au haupungui?",
+
+    "p_bleeding": "Je, anatokwa na damu ukeni?",
+    "p_fits": "Je, amepata degedege, amepoteza fahamu, au amechanganyikiwa?",
+    "p_headache": "Je, ana kichwa kuuma sana, uoni hafifu, au uvimbe wa ghafla usoni au mikononi?",
+    "p_breath": "Je, anapumua kwa shida, au ana maumivu makali ya tumbo?",
+    "p_waters": "Je, maji ya uchungu yamevunjika, au mtoto anacheza tumboni kidogo zaidi kuliko kawaida?",
+    "p_fever": "Je, ana homa?",
+    "p_worse": "Je, anajisikia vibaya zaidi, au una wasiwasi mwingine wowote?",
+
+    "a_unconscious": "Je, mgonjwa amepoteza fahamu, amechanganyikiwa, au ana degedege?",
+    "a_breath": "Je, anapumua kwa shida, au ana maumivu ya kifua?",
+    "a_bleeding": "Je, anatokwa na damu nyingi isiyokoma, anatapika damu, au anapata choo cheusi?",
+    "a_belly": "Je, ana maumivu makali ya tumbo, au anatapika sana hadi maji hayakai tumboni?",
+    "a_fever": "Je, amekuwa na homa kwa zaidi ya siku mbili?",
+    "a_cough": "Je, amekuwa na kikohozi kwa zaidi ya wiki mbili?",
+    "a_worse": "Je, ugonjwa umedumu zaidi ya siku tatu, au unazidi kuwa mbaya?",
+
+    "outcome_emergency": "Hii inaweza kuwa dharura. Nenda kituo cha afya kilicho karibu mara moja. Kama huwezi kufika haraka, mwombe mtu akupeleke sasa.",
+    "outcome_today": "Tafadhali nenda kituo cha afya leo.",
+    "outcome_3days": "Tafadhali tembelea kituo cha afya ndani ya siku tatu. Hali ikizidi kuwa mbaya, nenda mara moja.",
+    "outcome_home": "Kwa sasa unaweza kumhudumia mgonjwa nyumbani. Apumzike na anywe maji mengi. Dalili hatari zikitokea au hali ikizidi kuwa mbaya, nenda kituo cha afya. Unaweza pia kupiga simu tena."
+  },
+  "audio": {}
+}

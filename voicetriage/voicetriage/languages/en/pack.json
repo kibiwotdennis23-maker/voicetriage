@@ -1,0 +1,62 @@
+{
+  "name": "English",
+  "order": 1,
+  "reviewed": false,
+  "prompts": {
+    "menu": "For English, press",
+    "digit_1": "one",
+    "digit_2": "two",
+    "digit_3": "three",
+    "digit_4": "four",
+    "digit_5": "five",
+    "digit_6": "six",
+    "digit_7": "seven",
+    "digit_8": "eight",
+    "digit_9": "nine",
+    "consent": "Welcome to the VoiceTriage health line. This service gives guidance, not a diagnosis. To let the clinic know you are coming, and to share your answers and phone number with them, press 1. To continue without sharing, press 2.",
+    "invalid": "Sorry, I did not understand. Please try again.",
+    "yes_no_hint": "Press 1 for yes. Press 2 for no.",
+    "region_menu": "Which county are you in? Press the number after the name of your county.",
+    "facility_intro": "The nearest facility is",
+    "alert_sent": "The facility has been told you are coming.",
+    "no_alert": "The facility has not been told. Please go to the facility.",
+    "goodbye": "Thank you for calling. Goodbye.",
+    "disclaimer": "Remember, this service only gives guidance. If you are worried, go to a health facility.",
+
+    "region_uasin_gishu": "For Uasin Gishu, press",
+    "region_nandi": "For Nandi, press",
+    "region_elgeyo_marakwet": "For Elgeyo Marakwet, press",
+
+    "who": "Who is sick? Press 1 for a child under 5 years. Press 2 for a pregnant woman. Press 3 for anyone else.",
+
+    "c_drink": "Is the child unable to drink or breastfeed, or vomiting everything?",
+    "c_fits": "Has the child had fits, or is the child very sleepy, floppy, or hard to wake?",
+    "c_breath": "Is the child breathing fast or with difficulty, or is the chest pulling in?",
+    "c_young": "Is the child younger than 2 months?",
+    "c_diarrhoea": "Does the child have blood in the stool, or signs of dehydration such as sunken eyes?",
+    "c_fever": "Has the child had a fever for more than 2 days?",
+    "c_worse": "Is the illness getting worse, or not getting better?",
+
+    "p_bleeding": "Is she bleeding from the vagina?",
+    "p_fits": "Has she had fits, lost consciousness, or become confused?",
+    "p_headache": "Does she have a severe headache, blurred vision, or sudden swelling of the face or hands?",
+    "p_breath": "Is she having difficulty breathing, or severe belly pain?",
+    "p_waters": "Has her water broken, or is the baby moving much less than usual?",
+    "p_fever": "Does she have a fever?",
+    "p_worse": "Is she feeling worse, or do you have any other worry?",
+
+    "a_unconscious": "Is the person unconscious, confused, or having fits?",
+    "a_breath": "Is the person having difficulty breathing, or chest pain?",
+    "a_bleeding": "Is there heavy bleeding that will not stop, vomiting of blood, or black stool?",
+    "a_belly": "Does the person have severe belly pain, or vomiting so much that fluids will not stay down?",
+    "a_fever": "Has the person had a fever for more than 2 days?",
+    "a_cough": "Has the person had a cough for more than 2 weeks?",
+    "a_worse": "Has the illness lasted more than 3 days, or is it getting worse?",
+
+    "outcome_emergency": "This may be an emergency. Go to the nearest health facility immediately. If you cannot get there quickly, ask someone to take you now.",
+    "outcome_today": "Please go to a health facility today.",
+    "outcome_3days": "Please visit a health facility within three days. If things get worse, go immediately.",
+    "outcome_home": "For now you can care for the patient at home. Rest and drink plenty of fluids. If danger signs appear or things get worse, go to a health facility. You can also call again."
+  },
+  "audio": {}
+}

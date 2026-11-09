@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VoiceTriage alerts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>VoiceTriage: incoming patients</h1>
+    <div class="tools">
+      <label><input type="checkbox" id="showAll"> Show acknowledged</label>
+      <span id="status" role="status"></span>
+      <button id="signOut" hidden>Sign out</button>
+    </div>
+  </header>
+
+  <form id="login">
+    <label for="token">Facility access token</label>
+    <input id="token" type="password" autocomplete="off" required>
+    <button class="primary" type="submit">Open dashboard</button>
+    <p id="loginError" class="error" role="alert"></p>
+  </form>
+
+  <main id="board" hidden></main>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "version": "0.1-draft",
+  "status": "DRAFT - not clinically validated. Review against Kenya MoH / IMCI guidance and have a clinician sign it off before any real use.",
+  "start": "who",
+  "nodes": {
+    "who": {
+      "type": "choice",
+      "options": {"1": "c_drink", "2": "p_bleeding", "3": "a_unconscious"},
+      "labels": {"1": "Child under 5 years", "2": "Pregnant woman", "3": "Older child or adult"}
+    },
+
+    "c_drink":     {"type": "yesno", "label": "Unable to drink or breastfeed, or vomits everything", "yes": "outcome_emergency", "no": "c_fits"},
+    "c_fits":      {"type": "yesno", "label": "Convulsions, or very sleepy / floppy / hard to wake", "yes": "outcome_emergency", "no": "c_breath"},
+    "c_breath":    {"type": "yesno", "label": "Fast or difficult breathing, or chest pulling in", "yes": "outcome_emergency", "no": "c_young"},
+    "c_young":     {"type": "yesno", "label": "Baby younger than 2 months", "yes": "outcome_today", "no": "c_diarrhoea"},
+    "c_diarrhoea": {"type": "yesno", "label": "Blood in stool, or signs of dehydration", "yes": "outcome_today", "no": "c_fever"},
+    "c_fever":     {"type": "yesno", "label": "Fever for more than 2 days", "yes": "outcome_today", "no": "c_worse"},
+    "c_worse":     {"type": "yesno", "label": "Illness getting worse or not improving", "yes": "outcome_3days", "no": "outcome_home"},
+
+    "p_bleeding":  {"type": "yesno", "label": "Bleeding from the vagina", "yes": "outcome_emergency", "no": "p_fits"},
+    "p_fits":      {"type": "yesno", "label": "Fits, unconscious or confused", "yes": "outcome_emergency", "no": "p_headache"},
+    "p_headache":  {"type": "yesno", "label": "Severe headache, blurred vision, or sudden swelling of face or hands", "yes": "outcome_emergency", "no": "p_breath"},
+    "p_breath":    {"type": "yesno", "label": "Difficulty breathing or severe belly pain", "yes": "outcome_emergency", "no": "p_waters"},
+    "p_waters":    {"type": "yesno", "label": "Waters broken, or baby moving much less than usual", "yes": "outcome_today", "no": "p_fever"},
+    "p_fever":     {"type": "yesno", "label": "Fever", "yes": "outcome_today", "no": "p_worse"},
+    "p_worse":     {"type": "yesno", "label": "Feeling worse, or another worry", "yes": "outcome_3days", "no": "outcome_home"},
+
+    "a_unconscious": {"type": "yesno", "label": "Unconscious, confused or having fits", "yes": "outcome_emergency", "no": "a_breath"},
+    "a_breath":      {"type": "yesno", "label": "Difficulty breathing or chest pain", "yes": "outcome_emergency", "no": "a_bleeding"},
+    "a_bleeding":    {"type": "yesno", "label": "Heavy bleeding that will not stop, vomiting blood, or black stool", "yes": "outcome_emergency", "no": "a_belly"},
+    "a_belly":       {"type": "yesno", "label": "Severe belly pain, or vomiting so much fluids cannot stay down", "yes": "outcome_today", "no": "a_fever"},
+    "a_fever":       {"type": "yesno", "label": "Fever for more than 2 days", "yes": "outcome_today", "no": "a_cough"},
+    "a_cough":       {"type": "yesno", "label": "Cough for more than 2 weeks", "yes": "outcome_3days", "no": "a_worse"},
+    "a_worse":       {"type": "yesno", "label": "Illness lasting over 3 days or getting worse", "yes": "outcome_3days", "no": "outcome_home"},
+
+    "outcome_emergency": {"type": "outcome", "level": "emergency"},
+    "outcome_today":     {"type": "outcome", "level": "today"},
+    "outcome_3days":     {"type": "outcome", "level": "within_3_days"},
+    "outcome_home":      {"type": "outcome", "level": "home"}
+  }
+}

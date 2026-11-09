@@ -1,0 +1,23 @@
+{
+  "_note": "SAMPLE DATA ONLY. Replace with real facilities from the Kenya Master Health Facility List (KMHFL) and each facility's agreed alert number before any pilot.",
+  "regions": [
+    {
+      "key": "uasin_gishu",
+      "facilities": [
+        {"id": "SAMPLE-UG-01", "name": "Sample referral hospital, Uasin Gishu", "sms": "+254000000001"}
+      ]
+    },
+    {
+      "key": "nandi",
+      "facilities": [
+        {"id": "SAMPLE-ND-01", "name": "Sample county hospital, Nandi", "sms": "+254000000002"}
+      ]
+    },
+    {
+      "key": "elgeyo_marakwet",
+      "facilities": [
+        {"id": "SAMPLE-EM-01", "name": "Sample county hospital, Elgeyo Marakwet", "sms": "+254000000003"}
+      ]
+    }
+  ]
+}
